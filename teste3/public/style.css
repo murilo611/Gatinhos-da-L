@@ -1,0 +1,180 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex; /* Usa flexbox */
+  justify-content: space-between; /* Distribui espaço entre os elementos */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #333; /* Cor de fundo da navbar */
+}
+
+.navbar h1 {
+  margin: 0; /* Remove margem padrão do h1 */
+}
+
+.navbar ul {
+  list-style: none; /* Remove marcadores da lista */
+  margin: 0; /* Remove margem padrão */
+  padding: 0; /* Remove padding padrão */
+  display: flex; /* Usa flexbox para os itens da lista */
+  gap: 20px; /* Espaço entre os itens da lista */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #e0d5d5; /* Cor do texto */
+}
+
+
+#sobre {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 20px; /* Adiciona um pouco de espaço ao redor */
+}
+
+#sobre h2 {
+  margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+#sobre p {
+  max-width: 800px; /* Largura máxima para o parágrafo */
+  margin: 0 auto; /* Centraliza o parágrafo */
+}
+
+
+.background-video {
+  position: relative;
+  width: 40%; /* Define o vídeo para ocupar metade da largura da página */
+  margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+}
+
+.background-video video {
+  width: 100%; /* O vídeo vai ocupar 100% da largura da div pai, que agora é 50% da tela */
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  border-radius: 10px; /* Adiciona bordas arredondadas para um visual mais elegante (opcional) */
+}
+
+.conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.galeria {
+  text-align: center;
+  padding: 40px;
+}
+
+.galeria-imagens img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.doacao {
+  text-align: center; /* Centraliza o botão na página */
+  margin-top: 20px;   /* Adiciona espaço acima do botão */
+}
+
+#doacao {
+  background-color: #ff6347; /* Cor de fundo: Tom alaranjado (você pode mudar para outra cor) */
+  
+
+
+}
+
+.contato {
+    background-color: #f4f4f4; /* Fundo suave */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    max-width: 600px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza a seção */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contato h2 {
+    text-align: center; /* Centraliza o título */
+    color: #ff6347; /* Cor do título */
+}
+
+.contato p {
+    text-align: center; /* Centraliza o texto */
+}
+
+.contato form {
+    display: flex; /* Usa flexbox para o layout do formulário */
+    flex-direction: column; /* Coluna para os elementos */
+    gap: 10px; /* Espaçamento entre os elementos */
+}
+
+.contato label {
+    font-weight: bold; /* Destaca os rótulos */
+}
+
+.contato input, .contato textarea {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+.contato button {
+    padding: 10px; /* Espaçamento interno */
+    background-color: #ff6347; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+
+.form-contato button {
+  padding: 10px; /* Espaçamento interno */
+  background-color: #ff6347; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  margin-top: 20px; /* Espaçamento acima do botão de envio */
+}
+
+.form-contato button:hover {
+  background-color: #ff4500; /* Cor ao passar o mouse */
+}
+
+.contato a {
+  display: inline-block; /* Para permitir margens */
+  margin-top: 30px; /* Ajuste o valor conforme necessário */
+}
+
+#botaoDoacao {
+  padding: 10px; /* Espaçamento interno */
+  background-color: #ff6347; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  margin-top: 20px; /* Espaçamento acima do botão de envio */
+
+  }
